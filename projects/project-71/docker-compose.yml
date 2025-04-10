@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    image: ghanesh123/project-71-frontend
+    ports:
+      - "4200:80"
+    networks:
+      - project-network
+  backend:
+    build:
+      context: ./backend
+    image: ghanesh123/project-71-backend
+    ports:
+      - "8080:8080"
+    networks:
+      - project-network
+
+networks:
+  project-network:
+    driver: bridge
