@@ -1,0 +1,11 @@
+[33mcommit e5b691a9045707dbae692cfd3ee897571a2ab6f3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Ghanshyam Karemore <136547349+ghankaremore@users.noreply.github.com>
+Date:   Thu Apr 10 21:55:56 2025 +0530
+
+    Initial commit without AWS secrets
+
+[33mcommit 5f03d35c16b181383470caff18b19a60a88ff518[m
+Author: Ghanshyam Karemore <136547349+ghankaremore@users.noreply.github.com>
+Date:   Thu Apr 10 21:46:03 2025 +0530
+
+    first commit-implememted all backend endpoints
